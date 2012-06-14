@@ -1,0 +1,7 @@
+TBA
+
+1.0.1 (2012-05-29T13:13:15BST)
+- Improved row interface
+
+1.0.0 (2012-05-29T12:38:40BST)
+- Initial release
