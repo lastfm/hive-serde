@@ -10,7 +10,7 @@
 
   <groupId>fm.last.commons.hive.serde</groupId>
   <artifactId>lastcommons-hive-serde</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Hive SerDe commons</name>
   <description>Library for building custom Hive SerDes</description>
