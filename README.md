@@ -37,9 +37,9 @@ Lets assume that our records encode an event's type as `1 = Bang` and `2 = Fizzl
             if (isColumnOfStringType(columnType)) {
               int eventTypeCode = ((Integer) value).intValue();
               switch (eventTypeCode) {
-                case '1':
+                case 1:
                   return "Bang";
-                case '2':
+                case 2:
                   return "Fizzle";
                 default:
                   return "Unknown";
