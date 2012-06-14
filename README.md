@@ -27,7 +27,7 @@ A library for building custom [Hive](http://hive.apache.org/ "Apache - Welcome t
             row.setField(CustomRecordField.TYPE, record.getType());
           }     
         }
-See `fm.last.commons.hive.serde.TestField` for an example `Field` and `FieldFactory` implementation - they are very simple.
+See [`fm.last.commons.hive.serde.TestField`](https://github.com/lastfm/hive-serde/blob/master/src/test/java/fm/last/commons/hive/serde/TestField.java "GitHub - TestField source") for an example `Field` and `FieldFactory` implementation - they are very simple.
 ###Example field transform
 Lets assume that our records encode an event's type as `1 = Bang` and `2 = Fizzle` - if the destination column type is a string we might wish to convert the code to something more readable:
 
