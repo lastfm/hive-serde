@@ -1,4 +1,5 @@
-TBA
+1.0.2 (2012-06-14)
+- First release from GitHub
 
 1.0.1 (2012-05-29T13:13:15BST)
 - Improved row interface
