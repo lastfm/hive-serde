@@ -4,7 +4,7 @@ A library for building custom [Hive](http://hive.apache.org/ "Apache - Welcome t
 #Start using
 You can [download](https://github.com/lastfm/hive-serde/downloads) a JAR file or obtain hive-serde from Maven Central using the following identifier:
 
-* [fm.last.commons.hive.serde:lastcommons-hive-serde:1.0.2](http://search.maven.org/#artifactdetails%7Cfm.last.commons.hive.serde%7Clastcommons-hive-serde%7C1.0.2%7Cjar)
+* [fm.last.commons.hive.serde:lastcommons-hive-serde:2.0.0](http://search.maven.org/#artifactdetails%7Cfm.last.commons.hive.serde%7Clastcommons-hive-serde%7C2.0.0%7Cjar)
 
 #Features
 * Provides a very simple API for materializing your custom record types into Hive rows.
