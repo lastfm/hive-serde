@@ -9,6 +9,7 @@ import static org.mockito.Mockito.when;
 import java.util.Properties;
 
 import org.apache.hadoop.hive.serde2.SerDeException;
+import org.apache.hadoop.hive.serde2.SerDeStats;
 import org.apache.hadoop.io.ArrayWritable;
 import org.junit.Before;
 import org.junit.Test;
@@ -82,6 +83,11 @@ public class AbstractReadOnlySerDeTest {
     public void mapRecordIntoRow(ArrayWritable writable, Row row) throws SerDeException {
       capturedWritable = writable;
       capturedRow = row;
+    }
+
+    @Override
+    public SerDeStats getSerDeStats() {
+      return null;
     }
 
   }

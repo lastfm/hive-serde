@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -31,7 +32,6 @@
     <url>git@github.com:lastfm/hive-serde.git</url>
   </scm>
 
-
   <developers>
     <developer>
       <name>Elliot West</name>
@@ -52,8 +52,8 @@
   </organization>
 
   <properties>
-    <hadoopVersion>0.20.2-cdh3u0</hadoopVersion>
-    <hiveVersion>0.7.0-cdh3u0</hiveVersion>
+    <hadoopVersion>2.0.0-cdh4.1.1</hadoopVersion>
+    <hiveVersion>0.9.0-cdh4.1.1</hiveVersion>
     <downloadSources>true</downloadSources>
     <downloadJavadocs>true</downloadJavadocs>
   </properties>
@@ -163,7 +163,7 @@
 
     <!-- provided -->
     <dependency>
-      <groupId>org.apache.hadoop.hive</groupId>
+      <groupId>org.apache.hive</groupId>
       <artifactId>hive-serde</artifactId>
       <version>${hiveVersion}</version>
       <exclusions>
@@ -180,7 +180,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
-      <artifactId>hadoop-core</artifactId>
+      <artifactId>hadoop-common</artifactId>
       <version>${hadoopVersion}</version>
       <scope>provided</scope>
     </dependency>
