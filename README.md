@@ -77,7 +77,7 @@ Or to simultaneous mapping of fields to multiple columns of different types:
 This project uses the [Maven](http://maven.apache.org/) build system.
 
 #Acknowledgements
-Roberto Congiu for his posts on writing SerDes ([1](http://www.congiu.com/node/7 "Writing a SerDe in Hive for Lwes event files"), [2](http://www.congiu.com/articles/json_serde "A JSON read/write SerDe for Hive")).
+Roberto Congiu for his posts on writing SerDes ([1](http://www.congiu.com/writing-a-hive-serde-for-lwes-event-files/ "Writing a SerDe in Hive for Lwes event files"), [2](http://www.congiu.com/a-json-readwrite-serde-for-hive/ "A JSON read/write SerDe for Hive")).
 
 #Legal
 Copyright 2012 [Last.fm](http://www.last.fm/)
