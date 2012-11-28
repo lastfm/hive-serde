@@ -79,6 +79,9 @@ This project uses the [Maven](http://maven.apache.org/) build system.
 #Acknowledgements
 Roberto Congiu for his posts on writing SerDes ([1](http://www.congiu.com/writing-a-hive-serde-for-lwes-event-files/ "Writing a SerDe in Hive for Lwes event files"), [2](http://www.congiu.com/a-json-readwrite-serde-for-hive/ "A JSON read/write SerDe for Hive")).
 
+# Contributing
+All contributions are welcome. Please use the [Last.fm codeformatting profile](https://github.com/lastfm/lastfm-oss-config/blob/master/src/main/resources/fm/last/last.fm.eclipse-codeformatter-profile.xml) found in the `lastfm-oss-config` project for formatting your changes.
+
 #Legal
 Copyright 2012 [Last.fm](http://www.last.fm/)
 
