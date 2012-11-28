@@ -18,9 +18,9 @@
   <url>https://github.com/lastfm/hive-serde</url>
 
   <scm>
-    <connection>scm:git:git@github.com:lastfm/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:lastfm/${project.artifactId}.git</developerConnection>
-    <url>https://github.com/lastfm/${project.artifactId}</url>
+    <connection>scm:git:git@github.com:lastfm/hive-serde.git</connection>
+    <developerConnection>scm:git:git@github.com:lastfm/hive-serde.git</developerConnection>
+    <url>https://github.com/lastfm/hive-serde</url>
   </scm>
 
   <developers>
