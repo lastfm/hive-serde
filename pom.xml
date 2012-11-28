@@ -40,9 +40,8 @@
   <properties>
     <hadoopVersion>2.0.0-cdh4.1.1</hadoopVersion>
     <hiveVersion>0.9.0-cdh4.1.1</hiveVersion>
-    <downloadSources>true</downloadSources>
-    <downloadJavadocs>true</downloadJavadocs>
   </properties>
+
   <dependencies>
     <!-- commons compile -->
     <dependency>
